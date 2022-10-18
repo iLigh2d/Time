@@ -627,7 +627,7 @@ main {
 @media (max-width: 479.98px) {
   .footer__container {
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 85px;
   }
 }
 .footer .footer__logo:last-child {
