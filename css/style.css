@@ -127,7 +127,7 @@ body._lock {
 }
 @media (max-width: 479.98px) {
   .header__bg {
-    opacity: 0.5;
+    opacity: 0.2;
   }
 }
 .header__menu {
@@ -609,6 +609,7 @@ main {
 @media (max-width: 479.98px) {
   .footer::after {
     bottom: -25px;
+    opacity: 0.1;
   }
 }
 @media (max-width: 400px) {
