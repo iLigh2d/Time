@@ -125,12 +125,22 @@ body._lock {
   bottom: 0;
   opacity: 0.1;
 }
+@media (max-width: 479.98px) {
+  .header__bg {
+    opacity: 0.5;
+  }
+}
 .header__menu {
   margin-bottom: 150px;
 }
 @media (max-width: 767.98px) {
   .header__menu {
     margin-bottom: 120px;
+  }
+}
+@media (max-width: 479.98px) {
+  .header__menu {
+    margin-bottom: 60px;
   }
 }
 .header__items {
@@ -506,7 +516,7 @@ main {
 }
 
 .slider {
-  background: #eee;
+  background: #fff;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;

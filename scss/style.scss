@@ -68,12 +68,18 @@ body {
     height: 225px;
     bottom: 0;
     opacity: 0.1;
+    @media (max-width: $md4+px) {
+      opacity: 0.5;
+    }
   }
   // .header__menu
   &__menu {
     margin-bottom: 150px;
     @media (max-width: $md3+px) {
       margin-bottom: 120px;
+    }
+    @media (max-width: $md4+px) {
+      margin-bottom: 60px;
     }
   }
   &__items {
@@ -511,7 +517,7 @@ main{
 
 }
 .slider {
-  background: #eee;
+  background: #fff;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
